@@ -34,3 +34,21 @@
 - Total Profit
 
 **Business Insight:** Identifies the most profitable products and supports product performance evaluation and business decision-making.
+
+03. Product Ranking Analysis
+
+Objective: Identify the top two highest-priced products within each product category.
+
+SQL Concepts Used:
+
+Common Table Expressions (CTEs)
+
+ROW_NUMBER() Window Function
+
+PARTITION BY
+
+ORDER BY
+
+Filtering with WHERE
+
+Business Insight: Identifies the highest-priced products in each category and supports product portfolio analysis.
