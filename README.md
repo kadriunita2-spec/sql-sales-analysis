@@ -52,3 +52,25 @@ ORDER BY
 Filtering with WHERE
 
 Business Insight: Identifies the highest-priced products in each category and supports product portfolio analysis.
+
+### 4. Customer Segmentation
+
+**Objective:** Segment customers based on their total sales value to identify high-value, medium-value, and low-value customers.
+
+**SQL Concepts Used:**
+- Common Table Expressions (CTEs)
+- INNER JOIN
+- Aggregate Functions (`SUM`)
+- GROUP BY
+- CASE Statements
+- ORDER BY
+
+**Analysis:**
+- Calculate total sales for each customer.
+- Classify customers into three segments based on sales value:
+  - High Value Customer: Total Sales >= 10,000
+  - Medium Value Customer: Total Sales >= 5,000
+  - Low Value Customer: Total Sales < 5,000
+- Rank customers by total sales in descending order.
+
+**Business Insight:** This analysis helps identify the most valuable customers and supports customer relationship management and targeted marketing strategies.
